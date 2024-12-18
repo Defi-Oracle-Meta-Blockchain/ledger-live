@@ -68,7 +68,9 @@
     "e2e:loadConfig": "ts-node ./e2e/bridge/start-server.ts",
     "check": "pnpm lint; pnpm typecheck",
     "unimported": "unimported",
-    "assets:replace": "zx ./scripts/replace-assets.mjs"
+    "assets:replace": "zx ./scripts/replace-assets.mjs",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@azure/core-asynciterator-polyfill": "^1.0.2",
@@ -218,7 +220,8 @@
     "styled-components": "^5.3.3",
     "styled-system": "^5.1.5",
     "text-encoding-polyfill": "^0.6.7",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.24.3",
@@ -300,5 +303,6 @@
     "ts-node": "^10.4.0",
     "tslib": "2.6.2",
     "ws": "^7.5.2"
-  }
+  },
+  "snyk": true
 }
