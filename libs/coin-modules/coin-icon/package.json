@@ -57,7 +57,7 @@
     "@ledgerhq/types-live": "workspace:^",
     "bignumber.js": "^9.1.2",
     "expect": "^27.4.6",
-    "icon-sdk-js": "1.5.2",
+    "icon-sdk-js": "1.5.3",
     "invariant": "^2.2.2",
     "lodash": "^4.17.21",
     "prando": "^6.0.1",
