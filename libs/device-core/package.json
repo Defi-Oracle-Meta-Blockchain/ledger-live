@@ -24,7 +24,7 @@
     "@ledgerhq/logs": "workspace:^",
     "@ledgerhq/devices": "workspace:^",
     "@ledgerhq/types-live": "workspace:^",
-    "sha.js": "^2.4.11",
+    "sha.js": "^2.4.12",
     "semver": "^7.3.5"
   },
   "devDependencies": {
