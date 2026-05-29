@@ -41,7 +41,7 @@
     "@reduxjs/toolkit": "catalog:",
     "invariant": "2",
     "zod": "catalog:",
-    "lodash": "^4.17.21"
+    "lodash": "^4.18.1"
   },
   "devDependencies": {
     "@ledgerhq/types-cryptoassets": "workspace:^",
