@@ -111,7 +111,7 @@
     "invariant": "^2.2.2",
     "lodash": "^4.17.21",
     "rxjs": "catalog:",
-    "tronweb": "6.2.0"
+    "tronweb": "6.3.0"
   },
   "devDependencies": {
     "@ledgerhq/disable-network-setup": "workspace:^",
