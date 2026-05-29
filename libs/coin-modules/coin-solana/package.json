@@ -73,7 +73,7 @@
     "rxjs": "catalog:",
     "semver": "catalog:",
     "superstruct": "0.16.7",
-    "uuid": "11.1.0"
+    "uuid": "11.1.1"
   },
   "devDependencies": {
     "@ledgerhq/disable-network-setup": "workspace:^",
